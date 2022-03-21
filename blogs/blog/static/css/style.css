@@ -1,0 +1,47 @@
+.bg-theme{
+  background: #EB144C
+  }
+.bg-header{
+background: #EB144C
+}
+.bg-footer{
+background: #EB144C
+}
+.mt10{
+  margin-top: 10px;
+  }
+.mb10{
+  margin-bottom: 10px;
+  }
+.mt20{
+margin-top: 20px;
+}
+.content{
+  width: fit-content;
+  font-weight: 400;
+  font-family: sans-serif;
+  text-align: justify;
+  font-size: large;
+  }
+.bg-image{
+ width: 100%;
+ object-fit: cover;
+}
+img{
+  object-fit: cover;
+}
+.container-custom{
+  width: 90%!important;
+  margin: auto;
+  }
+  .text{
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-weight: bolder;
+  }
+.textCapitalize{
+  text-transform: capitalize;
+}
