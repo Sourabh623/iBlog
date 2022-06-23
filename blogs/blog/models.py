@@ -2,8 +2,6 @@ from django.db import models
 from django.utils.html import format_html
 
 # Create Category models here.
-
-
 class Category(models.Model):
     cat_id = models.AutoField(primary_key=True)
     title = models.CharField(max_length=255)

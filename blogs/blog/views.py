@@ -1,5 +1,3 @@
-import re
-from wsgiref.util import request_uri
 from django.shortcuts import render
 
 # Create your views here.
@@ -11,7 +9,7 @@ categories = Category.objects.all()
 posts = Post.objects.all()
 
 def home(request):
-    return render(request, "index.html", {'title': "Home Page", 'posts': posts[:6], 'categories':categories})
+    return render(request, "index.html", {'title': "Home Page", 'posts': posts[:6], 'categories': categories})
 
 def post(request, url):
     post = Post.objects.get(url=url)
